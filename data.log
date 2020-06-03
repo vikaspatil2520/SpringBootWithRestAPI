@@ -1,0 +1,54 @@
+2020-05-11 13:24:15.916  INFO 12849 --- [restartedMain] c.p.s.SpringbootbasicsApplication        : Starting SpringbootbasicsApplication on vikas-Inspiron-N5010 with PID 12849 (/home/vikas/Documents/workspace-spring-tool-suite-4-4.5.0.RELEASE/springbootbasicswithdb/target/classes started by vikas in /home/vikas/Documents/workspace-spring-tool-suite-4-4.5.0.RELEASE/springbootbasicswithdb)
+2020-05-11 13:24:15.916  INFO 12849 --- [restartedMain] c.p.s.SpringbootbasicsApplication        : No active profile set, falling back to default profiles: default
+2020-05-11 13:24:16.142  INFO 12849 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-05-11 13:24:16.151  INFO 12849 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9ms. Found 1 JPA repository interfaces.
+2020-05-11 13:24:16.237  INFO 12849 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-11 13:24:16.290  WARN 12849 --- [restartedMain] org.apache.tomcat.util.modeler.Registry  : The MBean registry cannot be disabled because it has already been initialised
+2020-05-11 13:24:16.325  INFO 12849 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-05-11 13:24:16.326  INFO 12849 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-05-11 13:24:16.326  INFO 12849 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-05-11 13:24:16.333  INFO 12849 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-05-11 13:24:16.333  INFO 12849 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 412 ms
+2020-05-11 13:24:16.409  INFO 12849 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-11 13:24:16.417  INFO 12849 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2020-05-11 13:24:16.426  INFO 12849 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2020-05-11 13:24:16.426  INFO 12849 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2020-05-11 13:24:16.491  INFO 12849 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-11 13:24:16.492  INFO 12849 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-05-11 13:24:16.512  INFO 12849 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-05-11 13:24:16.652  WARN 12849 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-05-11 13:24:16.746  INFO 12849 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-11 13:24:16.879  INFO 12849 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-11 13:24:16.880  INFO 12849 --- [restartedMain] c.p.s.SpringbootbasicsApplication        : Started SpringbootbasicsApplication in 1.002 seconds (JVM running for 304.547)
+2020-05-11 13:24:16.886  INFO 12849 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-05-11 13:25:47.385  INFO 12849 --- [Thread-15] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-05-11 13:25:47.389  INFO 12849 --- [Thread-15] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-05-11 13:25:47.396  INFO 12849 --- [Thread-15] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2020-05-11 13:25:47.410  INFO 12849 --- [Thread-15] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2020-05-11 13:25:47.731  INFO 12849 --- [restartedMain] c.p.s.SpringbootbasicsApplication        : Starting SpringbootbasicsApplication on vikas-Inspiron-N5010 with PID 12849 (/home/vikas/Documents/workspace-spring-tool-suite-4-4.5.0.RELEASE/springbootbasicswithdb/target/classes started by vikas in /home/vikas/Documents/workspace-spring-tool-suite-4-4.5.0.RELEASE/springbootbasicswithdb)
+2020-05-11 13:25:47.732  INFO 12849 --- [restartedMain] c.p.s.SpringbootbasicsApplication        : No active profile set, falling back to default profiles: default
+2020-05-11 13:25:48.006  INFO 12849 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-05-11 13:25:48.018  INFO 12849 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11ms. Found 1 JPA repository interfaces.
+2020-05-11 13:25:48.129  INFO 12849 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-11 13:25:48.184  WARN 12849 --- [restartedMain] org.apache.tomcat.util.modeler.Registry  : The MBean registry cannot be disabled because it has already been initialised
+2020-05-11 13:25:48.254  INFO 12849 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-05-11 13:25:48.256  INFO 12849 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-05-11 13:25:48.256  INFO 12849 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-05-11 13:25:48.263  INFO 12849 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-05-11 13:25:48.263  INFO 12849 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 526 ms
+2020-05-11 13:25:48.332  INFO 12849 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-11 13:25:48.338  INFO 12849 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2020-05-11 13:25:48.342  INFO 12849 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2020-05-11 13:25:48.343  INFO 12849 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2020-05-11 13:25:48.390  INFO 12849 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-11 13:25:48.390  INFO 12849 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-05-11 13:25:48.411  INFO 12849 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-05-11 13:25:48.515  WARN 12849 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-05-11 13:25:48.585  INFO 12849 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-11 13:25:48.767  INFO 12849 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-11 13:25:48.768  INFO 12849 --- [restartedMain] c.p.s.SpringbootbasicsApplication        : Started SpringbootbasicsApplication in 1.078 seconds (JVM running for 396.434)
+2020-05-11 13:25:48.770  INFO 12849 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-05-11 13:26:02.174  INFO 12849 --- [Thread-20] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-05-11 13:26:02.176  INFO 12849 --- [Thread-20] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-05-11 13:26:02.178  INFO 12849 --- [Thread-20] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2020-05-11 13:26:02.187  INFO 12849 --- [Thread-20] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
